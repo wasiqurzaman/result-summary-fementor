@@ -225,13 +225,31 @@ p {
   main {
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 0;
   }
 
   header {
+    color: var(--Light-lavender);
+    padding: 1.5rem;
     margin: 0;
     border-radius: 0 0 2rem 2rem;
   }
+
+  .score {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem 0;
+  }
+
+  .score span:first-child {
+    font-size: 3rem;
+  }
+
   .summary {
     width: 100%;
+    padding-top: 1rem;
+  }
+  .summary div {
+    margin-bottom: 1rem;
   }
 }
